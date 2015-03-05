@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /index.html
+  - source: /
     destination: /usr/share/html/nginx/DeployDemo
 hooks:
   BeforeInstall:
@@ -15,5 +15,5 @@ hooks:
     - location: script/stop_server.sh
       timeout: 300
       runas: root
-~                               
+                               
 
