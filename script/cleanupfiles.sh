@@ -1,3 +1,5 @@
 #!/bin/bash
 
-clear
+apt-get install ­y httpd
+
+rm ­f /var/www/html/index.html
