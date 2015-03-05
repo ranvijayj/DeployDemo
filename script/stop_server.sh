@@ -1,3 +1,9 @@
 #!/bin/bash
 
-service nginx stop
+isExistApp = `pgrep httpd`
+
+if [[ ­n $isExistApp ]]; then
+
+service httpd stop
+
+fi
