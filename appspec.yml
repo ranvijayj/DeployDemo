@@ -3,7 +3,6 @@ os: linux
 files:
  - source: /
    destination: /usr/share/nginx/html/DeployDemo
-
 hooks:
   BeforeInstall:
     - location: script/cleanupfiles.sh
